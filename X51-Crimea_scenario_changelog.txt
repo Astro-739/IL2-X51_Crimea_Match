@@ -1,0 +1,68 @@
+-------------- open -------------
+check under attack message axis fuel truck transport
+check timing axis fuel truck transport
+check update damage model transport hub/industry
+prevent tank group 4 from going home after about 10 minutes
+
+
+-------------- v4 -------------
+test - rename transport hub to industry
+done - tank group 4 goes for Axis temp
+done - close Axis Temp for resupply when tanks on Temp
+test - reopen Axis Temp for resupply when tanks killed
+test - 6 out of 7 tanks need to be killed for the wave to be considered destroyed
+done - tank group 4 goes for Allied temp
+done - close Allied Temp for resupply when tanks on Temp
+test - reopen Allied Temp for resupply when tanks killed
+done - tank groups 4 will only spawn once
+test - tank groups 4 will be deleted after 20 minutes and Temp reopened
+test - supply flights get returned on landing and added to stock, should not count
+test - change fuel use time from 45 min to 40 min
+done - fuel 45 -> 40 mins message on Axis/Allied Temp when landing first supply plane
+done - no bombs under top fighters at main (P-51B, G6late)
+rejected - reduce available supply flights from 5 to 4
+rejected - supply spawn closed for 15 minutes
+rejected - close Axis supply spawn when tanks on Temp
+rejected - reopen Axis supply spawn when tanks killed
+rejected - close Allied supply spawn when tanks on Temp
+rejected - reopen Allied supply spawn when tanks killed
+
+-------------- v3b -------------
+done - list weather conditions
+done - damage model industry equal to transport hub
+done - change Ju52 skin allied to ambulance
+done - update Mid War plane set 1-2, A3->Ju87, Hurri->IL2
+done - update Mid War plane set 3-5, Hurri->P-47D28
+done - update Mid War P-47D28->Hurri at allied Main
+done - remove 81 inch on P-51B on LW Main
+done - investigate AAA Transport Hub for friendly fire (sandbags AAA)
+done - extra AAA on temp
+done - artillery aaa sucks
+done - landing fire allied temp
+done - mossie loadout
+done - tank attack art longer
+done - aaa location temp better
+done - dashboard font size
+done - text resupply sooner
+done - fuel low indicator
+done - dashboard connections captured
+done - ju52 standard paratroopers
+done - panic stop not working fuel convoy
+done - add Hornisse
+done - change AAA truck in fuel convoy
+done - use report link for aaa
+done - message for supply plane
+done - plane balancing LW temp
+done - plane balancing LW temp after capture
+done - resupply interval to 15 minutes
+rejected - close supply spawn - screws up 5 available flights
+done - supply instead of re-supply in dashboard
+done - p-38 MW loadout options too strict now
+done - tanks damage aaa when art/defences destroyed
+done - allied tanks to defences: dmg is not applied correctly
+done - tanks rework with separate waypoints
+done - plane balancing MW temp
+done - plane balancing MW temp after capture
+done - plane balancing Main airfields
+
+

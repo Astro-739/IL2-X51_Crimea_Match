@@ -1,0 +1,60 @@
+Symmetric scenario with multiple objectives per side, some stationary, others dynamic. Scenario AI and timing start when the first airplane spawns on any of the Crimea airfields.
+
+Season: spring
+Weather: light clouds, no wind, 15°C
+
+Airfields have two spawns, one for Mid War and one for Late War. Main airfields hold unlimited aircraft, but only lower performing types. Temporary airfields hold a limited number of the best performing aircraft.
+
+Plane sets:
+1. Mid War, based on Finnish plane set 3 - 5
+- Do not use 150 octane fuel or MW50
+- Other limitations, e.g. no merlin engine (P-51B)
+2. Late War, based on Finnish plane set 6 - 8
+- All configurations available
+
+Temporary airfields must be supplied with aircraft (supply flights) and with fuel (fuel convoys).
+
+Supply flights:
+- Supply flights provide Temporary with new airplanes and new AAA.
+- Each supply flight will bring the available number of aircraft to 9 (independent of the remaining number before re-supply).
+- Supply flights should be at least 15 minutes apart, with a maximum of 4 flights.
+- Come to a complete stop on the airfield after landing with the supply aircraft.
+
+Supply flight Mid War plane sets:
+- Axis flight 1-2: G2, F4, Ju87, Ju52
+- Axis flight 3-4: G6late, G6, A6, Ju87, Ju52
+- Allied flight 1-2: SpitV, Yak7B, IL2, Ju52
+- Allied flight 3-4: SpitIX, P-51B, P-47D, IL2, Ju52
+
+Supply flight Late War plane sets:
+- Axis flight 1-2: G14, A8, A6, Hs129, Ju52
+- Axis flight 3-4: K4, D9, A8, Hs129, Ju52
+- Allied flight 1-2: SpitIX, P-51D, Typhoon, IL2, Ju52
+- Allied flight 3-4: SpitXIV, P-51D, Tempest, IL2, 52
+
+Fuel usage:
+- After opening Temporary, 40 minutes (scenario time) of fuel is available.
+- Each 30 minutes a fuel convoy should arrive to re-supply fuel.
+- A fuel convoy contains 4 fuel trucks/ships, when 3 or more are destroyed, no fuel will be re-supplied.
+- When Out of Fuel, jeeps will be parked around the spawns, do NOT take off.
+
+Temporary airfields can be captured by paratroopers, after which they function as a regular temporary airfield accepting supply flights. A circle marked Paratroopers will appear on the map, indicating the size of the drop zone and that capture conditions have been met. With the first supply flight after capture, 40 minutes (scenario time) of fuel will be available, no fuel will be re-supplied.
+
+Conditions for capture:
+- Defences near Temporary must be destroyed.
+- All AAA on Temporary must be destroyed.
+- At least 10 paratroopers must successfully land on the airfield.
+
+In the centre of the map, a ground battle develops during the scenario. Groups of tanks will face each other and attack ground objectives. Arrows on the map will indicate where the tanks go. Tanks will first attack Artillery, after that is destroyed they will attack Temporary Defences.
+
+Tank attack:
+- A tank wave will start roughly each 30 minutes.
+- When tanks (at least 1) reach an objective, they will damage it and reduce the objective's health by 50%.
+- The amount of tanks per wave starts at 6 and will be reduced by 1 for each 25% of Tank Reserves' health lost.
+- Tank Reserves are lowered by damaging Industry (Allied) and Transport Hub (Axis).
+
+Supply drops:
+- Artillery can be supplied during the battle.
+- Each supply drop will increase Artillery's health by 50%.
+- The supply drop point is marked with a wooden X on the terrain.
+- Use paratroopers for the supply drop (currently the IL2 game does not accept dropped supply containers).
